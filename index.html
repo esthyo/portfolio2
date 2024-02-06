@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquerries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="deskstop_nav">
+      <div class="logo">Esther Ukwuani</div>
+      <div>
+        <ul class="nav_links">
+          <li><a href="#About">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger">
+      <div class="logo">Esther Ukwuani</div>
+
+      <div class="hamburger-menu">
+        <div class="hamburger_icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="menuLinks">
+          <li><a href="#" onclick="toggleMenu()">About</a></li>
+          <li><a href="#" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section_pic_container">
+        <img
+          src="images/profile-picture-girl.jpg"
+          alt="Esther Ukwuani's picture"
+          class="picture"
+        />
+      </div>
+
+      <div class="section_text_container">
+        <p class="section_p1">Hello, I'm</p>
+        <h1 class="tittle">Esther Ukwuani</h1>
+        <p class="section_p2">Front-end Developer</p>
+
+        <div class="btn_container">
+          <button
+            class="btn btn_color-2"
+            onclick="window.open('images/images (2).jpeg')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn_color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+
+        <div id="socials_container">
+          <img
+            src="images/download.png"
+            alt="my linkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedIn.com/estherukwuani'"
+          />
+          <img
+            src="images/download (2).png"
+            alt="my github profile"
+            class="icon"
+            onclick="location.href='https://github.com'"
+          />
+        </div>
+      </div>
+      <!-- <img src="images/aror.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'"> -->
+    </section>
+
+    <section id="About">
+      <p class="section_p1">Get to know More</p>
+      <h1 class="tittle">About Me</h1>
+
+      <div class="section_container">
+        <div class="section_pic_container">
+          <img
+            src="images/profile-picture-girl.jpg"
+            alt="profile picture"
+            class="about_pic"
+          />
+        </div>
+
+        <div class="about_details_container">
+          <div class="about_containers">
+            <div class="details_container">
+              <img
+                src="images/download (3).png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                2 plus years <br />
+                Front-end Development
+              </p>
+            </div>
+
+            <div class="details_container">
+              <img src="images/edu.png" alt="Experience icon" class="icon" />
+              <h3>Education</h3>
+              <p>
+                Mass Communication <br />
+                Social Development
+              </p>
+            </div>
+          </div>
+
+          <div class="section_text_container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              sunt beatae, distinctio laudantium, accusamus inventore eveniet
+              quidem deleniti in exercitationem nostrum esse id fugiat porro
+              amet eius ratione error provident ex quaerat magnam dolorem,
+              aperiam quae! Autem molestiae atque perferendis enim tempore,
+              saepe facilis, nulla nisi alias doloribus porro sunt?
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/aror.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section_p1">Explore My</p>
+      <h1 class="tittle">Experience</h1>
+      <div class="experience_details_container">
+        <div class="about_containers">
+          <div class="details_container">
+            <h2 class="experience_sub_tittle">Front-end Development</h2>
+            <div class="article_container">
+              <article>
+                <img
+                  src="images/chakemate.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/chakemate.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermeediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/chakemate.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="details_container">
+            <h2 class="experience_sub_tittle">Front-end Development</h2>
+            <div class="article_container">
+              <article>
+                <img
+                  src="images/chakemate.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/chakemate.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermeediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="images/chakemate.png"
+                  alt="Experience Icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/aror.png" alt="" class="icon arrow" />
+    </section>
+
+    <section id="project">
+      <p class="section_p1">Browse my recent</p>
+      <h1 class="tittle">Projects</h1>
+      <div class="experience_details_container">
+        <div class="about_containers aboutCon">
+
+          <div class="details_container color_container">
+            <div class="article_containers">
+              <img
+                src="images/project.jpeg"
+                alt="Project 1"
+                class="project_img"
+              />
+              <div><h2 class="project_tittle">Project One</h2></div>
+              <div class="btn_container">
+                <button
+                  class="btn btn_color-2 project_btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn_color-2 project_btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="details_container color_container">
+            <div class="article_containers">
+              <img
+                src="images/project.jpeg"
+                alt="Project 1"
+                class="project_img"
+              />
+              <div><h2 class="project_tittle">Project One</h2></div>
+              <div class="btn_container">
+                <button
+                  class="btn btn_color-2 project_btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn_color-2 project_btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="details_container color_container">
+            <div class="article_containers">
+              <img
+                src="images/project.jpeg"
+                alt="Project 1"
+                class="project_img"
+              />
+              <div><h2 class="project_tittle">Project Two</h2></div>
+              <div class="btn_container">
+                <button
+                  class="btn btn_color-2 project_btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn_color-2 project_btn"
+                  onclick="location.href='https://github.com'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+      <img src="images/aror.png" alt="" class="icon arrow" />
+    </section>
+
+    <section id="contact">
+        <p class="section_p1">Get in Touch</p>
+        <h1 class="tittle">Contact Me</h1>
+        <div class="contact_info_upper_container">
+            <div class="contact_info_container">
+                <img src="images/email.png" alt="Email" class="icon contact_icon email_icon">
+                <p><a class="link" href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+            </div>
+             <div class="contact_info_container">
+                <img src="images/download.png" alt="Email" class="icon contact_icon">
+                <p><a class="link" href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    
+    
+        <footer>
+            <nav>
+                <div class="nav_links_container">
+                    <ul class="nav_links">
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 Esther Ukwuani. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
